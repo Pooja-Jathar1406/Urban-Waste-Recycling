@@ -1,0 +1,130 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif; 
+}
+.signUpBody{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container1{ 
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url("../images/Forest.jpg"); */
+    background-size: cover;
+    column-gap: 30px;
+}
+
+.form{ 
+    max-width: 430px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+.forms.show-signup .form.signup{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.forms.show-signup {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.header1{
+    font-size: 28px;
+    font-weight: 600;
+    color: #232836;
+    text-align: center;
+}
+
+.form .field
+{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.field input,
+.field button
+{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 30px;
+}
+
+.field input{
+    outline: none;
+    padding: 0 15px;
+    border: 1px solid #cacaca;
+}
+
+.field input:focus{
+    border-bottom-width: 2px;
+}
+
+.eye-icon{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #8b8b8b;
+    cursor: pointer;
+    padding: 5px;
+} 
+.form-link{
+    text-align: center;   
+    margin-top: 10px; 
+}
+
+.form-link span,
+.form-link span a
+{
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+
+.form a{
+    color: #0171d3;
+    text-decoration: none;
+}
+
+.form-content a:hover{
+    text-decoration: underline; 
+}
+
+.media-options a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginbtn{
+    background-color:#006004;
+  font-weight: bold;
+  color: white;
+}
+.loginbtn:hover{
+color: #e6e9ec;
+    background-color: #19a100;
+}
+
+@media screen and (max-width: 400px) {
+    .form{
+        padding: 15px 10px;
+    }
+    
+} 

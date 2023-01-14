@@ -1,0 +1,99 @@
+.container-fluid{
+    margin: 0px;
+    padding: 0px;
+}
+.logoimg{ 
+  height: 50px;
+  /* width: 150px; */
+}
+.pgTitle{
+    font-family: 'Times New Roman', serif; 
+    font-weight: bolder;
+    font-size: 50px;
+}
+.buybtns{
+  text-decoration: none;
+  color: aliceblue;
+}
+.buybtn:hover{
+  text-decoration: none;
+  color: aliceblue;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.card-img-top{
+    width: 150px;
+    height: 150px;
+}
+.cardcenter{
+    display: flex;
+    justify-content: center;  
+}
+.cardText{
+    text-align: left;
+}
+.sellerSection{
+    /* background-image: url(../images/rrr.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+.sellermsg{
+    padding-left: 8%;
+    color: white;
+    
+}
+.sellerbuttonDiv{
+    display: flex;
+    justify-content: end;
+    align-items: center; 
+}
+.sellButton{
+    padding: 15px 25px;
+    font-weight: bold;
+}
+.centeredText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-shadow: #006004;
+  }
+ 
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .card:hover .image {
+    opacity: 0.3;
+  }
+  
+  .card:hover .middle {
+    opacity: 1;
+  }
+  
+  .LinkCardtext {
+    background-color: #006004;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    width: 200px;
+
+  }
+  .cardImage{
+    background-size: contain;
+  }
